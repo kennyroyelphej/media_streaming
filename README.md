@@ -1,1 +1,1 @@
-# media_streaming_server
+# Media Streaming Server
