@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash Player</title>
+</head>
+<body>
+    <div>
+        <video id="dashPlayer" controls></video>
+    </div>
+    <script src="package/dash.all.min.js"></script>
+    <script>
+        (function(){
+            var url = "http://localhost:3005/storage/1634881752715/1634881752715.mpd";
+            var player = dashjs.MediaPlayer().create();
+            player.initialize(document.querySelector("#dashPlayer"), url, true);
+        })();
+    </script>
+</body>
+</html>

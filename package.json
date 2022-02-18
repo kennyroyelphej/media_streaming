@@ -1,0 +1,25 @@
+{
+  "name": "encoding_server",
+  "version": "1.0.0",
+  "description": "fluent-ffmpeg",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "kenny-roy-elphej",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "mongoose": "5.13.9",
+    "multer": "^1.4.3",
+    "socket.io": "^4.3.1",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
